@@ -8,8 +8,8 @@ import PIL
 
 parser = argparse.ArgumentParser(description='Align_face')
 
-parser.add_argument('-unprocessed_dir', type=str, default='unprocessed', help='directory with unprocessed images')
-parser.add_argument('-output_dir', type=str, default='input/face', help='output directory')
+parser.add_argument('-unprocessed_dir', type=str, default='/content/Barbershop/unprocessed', help='directory with unprocessed images')
+parser.add_argument('-output_dir', type=str, default='/content/Barbershop/input/face', help='output directory')
 
 parser.add_argument('-output_size', type=int, default=1024, help='size to downscale the input images to, must be power of 2')
 parser.add_argument('-seed', type=int, help='manual seed to use')
