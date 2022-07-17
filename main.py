@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
     # StyleGAN2 setting
     parser.add_argument('--size', type=int, default=1024)
-    parser.add_argument('--ckpt', type=str, default="/content/Barbershop/pretrained_models/ffhq_PCA.npz")
+    parser.add_argument('--ckpt', type=str, default="/content/Barbershop/pretrained_models/ffhq.pt")
     parser.add_argument('--channel_multiplier', type=int, default=2)
     parser.add_argument('--latent', type=int, default=512)
     parser.add_argument('--n_mlp', type=int, default=8)
